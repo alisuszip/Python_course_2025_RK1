@@ -39,7 +39,29 @@
 ○
 Разработайте программу развития для high-potential сотрудников
 
+СТРУКТУРА
+.
+├── analyzers
+│   ├── CareerDevelompentAnalyzer.py
+│   ├── DemographicAnalyzer.py
+│   ├── EducationAnalyzer.py
+│   ├── HRStrategyAdvisor.py
+│   └── TurnoverAnalyzer.py
+├── company.json
+├── employee.py
+├── main.py
+└── requirements.txt
 
+
+ТЕХНИЧЕСКИЕ ЗАВИСИМОСТИ
+Основные требования
+
+pandas>=1.3.0
+numpy>=1.21.0
+
+
+
+РЕЗУЛЬТАТ РАБОТЫ КОДА
 
 Loading company data...
 Loaded 755 employees
@@ -263,7 +285,7 @@ Expected Outcomes:
 ALL ANALYSES COMPLETED SUCCESSFULLY!
 
 
-
+ВЫВОДЫ
 
 1. КРИТИЧЕСКИЕ ПРОБЛЕМЫ
 Наибольшая текучесть зафиксирована в отделе кибербезопасности (52.6%), следовательно возможны проблемы с кибербезопасностью: 10/19 работников устроены меньше двух лет.
